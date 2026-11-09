@@ -1,0 +1,73 @@
+body {
+    background: #fff;
+    font-size: .95rem;
+}
+
+/* Logo: "Comic" dengan sorotan kuning */
+.brand {
+    font-weight: 600;
+    color: #212529;
+}
+
+.brand-mark {
+    background: #ffc107;
+    padding: 0 .4rem;
+    border-radius: .25rem;
+    display: inline-block;
+    transform: rotate(-2deg);
+}
+
+/* Tombol utama kuning */
+.btn-comic {
+    background: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+.btn-comic:hover,
+.btn-comic:focus {
+    background: #ffca2c;
+    border-color: #ffc720;
+    color: #212529;
+}
+
+/* Halaman login / daftar */
+.auth-wrap {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+    padding: 1rem;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 370px;
+    box-shadow: 8px 8px 0 #212529;
+}
+
+/* Menu samping */
+.list-group-item.active {
+    background: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+    font-weight: 600;
+}
+
+/* Tabel */
+.card>.table {
+    margin-bottom: 0;
+}
+
+.card>.table th {
+    font-weight: 700;
+}
+
+.card-header {
+    background: #f8f9fa;
+}
+
+td .btn+.btn {
+    margin-left: .15rem;
+}
